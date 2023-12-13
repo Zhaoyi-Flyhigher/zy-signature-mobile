@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>signature</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <button id="open">open signature</button>
+    <div class="image-container"></div>
+    <div class="text-container" id="signature"></div>
+    <script  type="module">
+        import Signature from "../dist/main.js";
+        window.onload = function () {
+            var btn = document.getElementById("open");
+            btn.onclick = function () {
+                const signature = new Signature({
+                    id: "#signature",
+                    success(res) {
+                        console.log(res);
+                    },
+                    fail(err){
+                        console.log(err,"err");
+                    }
+                })
+            }
+        }
+        
+    </script>
+</body>
+</html>

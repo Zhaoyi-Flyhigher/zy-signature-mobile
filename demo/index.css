@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+}
+.text-container {
+    width: 100%;
+    height: 100%;
+    background-color: cadetblue;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container img {
+    display: block;
+  max-width: 100%;
+  height: auto;
+}
