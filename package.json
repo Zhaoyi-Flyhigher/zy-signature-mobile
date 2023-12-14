@@ -1,12 +1,14 @@
 {
   "name": "zy-signature-mobile",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "dist/main.js",
+  "module": "dist/main.js",
   "scripts": {
     "build": "webpack --config ./build/webpack.config.js"
   },
   "keywords": [
+    "zy",
     "signature",
     "signature-mobile",
     "zy-signature-mobile"
