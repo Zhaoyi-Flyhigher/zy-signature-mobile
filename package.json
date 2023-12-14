@@ -1,7 +1,7 @@
 {
   "name": "zy-signature-mobile",
   "version": "0.0.2",
-  "description": "",
+  "description": "简单的签名组件",
   "main": "dist/main.js",
   "module": "dist/main.js",
   "scripts": {
